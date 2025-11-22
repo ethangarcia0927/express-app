@@ -1,0 +1,7 @@
+<%- include('partials/head.ejs') %>
+<%- include('partials/nav.ejs') %>
+<h1> NASA picture of the Day</h1>
+<h2><%= data.title %></h2>
+<img src="<%= data.url %>" style="max-width:80%">
+<p><%= data.explanation %></p>
+<%- include('partials/footer.ejs') %>
