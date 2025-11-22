@@ -19,7 +19,7 @@ app.get('/', async(req, res) => {
 app.get('/mercury', (req, res) => {
    let planetMercury = planets.getMercury();
    console.log(planetMercury);
-   res.render('Mercury',{planetMercury});
+   res.render('mercury',{planetMercury});
 });
 
 app.get('/earth', (req, res) => {
